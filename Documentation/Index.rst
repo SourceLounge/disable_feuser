@@ -24,19 +24,19 @@ Disable BeUser Task
 		en
 
 	:Description:
-		A Scheduler Task to disable inactive user .
+		A Scheduler Task to disable inactive frontend user .
 
 	:Keywords:
-		Scheduler,Task,beuser
+		Scheduler,Task,feuser
 
 	:Copyright:
 		2015
 
 	:Author:
-		Sven Jürgens
+		Simon Diercks
 
 	:Email:
-		t3@blue-side.de
+		diercks@source-lounge.de
 
 	:License:
 		This document is published under the Open Content License

@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = array (
 	'title' => 'Disable FeUser Task',
-	'description' => 'Scheduler task to disable inactive frontend users',
+	'description' => 'Scheduler task to disable inactive frontend users (Fork of disable_beuser)',
 	'category' => 'be',
 	'version' => '1.0.0',
 	'state' => 'beta',

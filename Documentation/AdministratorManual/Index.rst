@@ -14,19 +14,19 @@ Administrator Manual
 Target group: **Administrators**
 
 .. note::
-	The task don't disable Administrators, Backend User which start with "_cli_" and excluded User.
+	The task don't disable excluded User.
 
 
 Installation
 ------------
 
-Just install with Extension Manager and create a new scheduler task "Disable Beuser".
+Just install with Extension Manager and create a new scheduler task "Disable Feuser".
 
 Now you have the possibilty to exclude single User From this Task
 
 .. figure:: ../Images/AdministratorManual/exclude-user.png
 	:width: 500px
-	:alt: Screenshot of Backend User
+	:alt: Screenshot of frontend user
 
 
 
@@ -42,7 +42,7 @@ You can set an individual HTML E-Mail Template in ExtensionManager Configuration
 Configuration
 ------------
 
-**Input field: "Time of Inactivity to disable Beuser"**
+**Input field: "Time of Inactivity to disable Feuser"**
 
 Here you have to set a time span e.g. "1 months". You have to use a correkt  (PHP) Date/Time Format.
 
@@ -82,8 +82,8 @@ The scheduler task create a Datetime Object and subtract the time span from "now
 If you set an email address you get the date and a list with disabled user from the task.
 
 
-.. figure:: ../Images/AdministratorManual/disable-beuser-task.png
+.. figure:: ../Images/AdministratorManual/disable-feuser-task.png
 	:width: 500px
 	:alt: Screenshot of Scheduler Task
 
-	Disable Beuser Scheduler Task
+	Disable Feuser Scheduler Task

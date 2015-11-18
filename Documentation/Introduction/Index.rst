@@ -9,7 +9,7 @@
 What does it do?
 ================
 
-This extenison integrate a scheduler task to disable backend user after a configurable amount of time.
+This extenison integrate a scheduler task to disable frontend user after a configurable amount of time.
 
 
 

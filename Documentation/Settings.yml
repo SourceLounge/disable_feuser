@@ -5,13 +5,13 @@
 ---
 conf.py:
   copyright: 2015
-  project: Disable BeUser Task
+  project: Disable FeUser Task
   version: .
   release: 
   latex_documents:
   - - Index
     - disable_feuser.tex
-    - Disable BeUser Task
+    - Disable FeUser Task
     - 
     - manual
   latex_elements:
