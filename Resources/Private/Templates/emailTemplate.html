@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1><f:translate key="LLL:EXT:disable_feuser/Resources/Private/Language/locallang.xlf:email.disableduser"/></h1>
+	<table>
+		<thead align="left">
+			<tr>
+				<th><f:translate key="LLL:EXT:disable_feuser/Resources/Private/Language/locallang.xlf:email.username"/></th>
+				<th><f:translate key="LLL:EXT:disable_feuser/Resources/Private/Language/locallang.xlf:email.lastlogin"/></th>
+			</tr>
+		</thead>
+		<tbody>
+			<f:for each="{disabledUser}" as="feuser" >
+				<tr>
+					<td>{feuser.username}</td>
+					<td>
+						<f:if condition="{feuser.lastlogin}">
+							<f:then><f:format.date format="d.m.Y - H:i">@{feuser.lastlogin}</f:format.date></f:then>
+							<f:else><f:translate key="LLL:EXT:feuser/Resources/Private/Language/locallang.xlf:never"/></f:else>
+						</f:if>
+					</td>
+				</tr>
+			</f:for>
+		</tbody>
+	</table>
+</body>
+</html>
